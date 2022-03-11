@@ -1,0 +1,41 @@
+.flex-container {
+    border: 5px solid black;
+    display: flex;
+    height: 30vh;
+    
+}
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: orangered;
+}
+
+.three {
+    background-color: orange;
+}
+
+.four {
+    background-color: yellow;
+}
+
+.five {
+    background-color: greenyellow;
+}
+
+.six {
+    background-color: green;
+}
+
+.seven {
+    background-color: forestgreen;
+}
+
+.eight {
+    background-color: skyblue;
+}
+
+.nine {
+    background-color: purple;
+}
