@@ -1,9 +1,40 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
 .flex-container {
     border: 5px solid black;
     display: flex;
-    height: 30vh;
-    
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+
 }
+
+img.img {
+    height: 180px;
+    width: 25%;
+    box-sizing: border-box;
+    border: 5px 0px solid black;
+
+}
+
+.img:hover {
+    border: 5px dashed rgb(0, 0, 0);
+}
+
+.box {
+    height: 200px;
+    width: 180px;
+}
+
+.box.num:hover {
+    box-sizing: border-box;
+
+    border: 5px dashed #fff;
+}
+
 .one {
     background-color: red;
 }
@@ -38,4 +69,14 @@
 
 .nine {
     background-color: purple;
+}
+
+
+.img-container {
+    border: 5px solid black;
+    display: flex;
+}
+
+.fxim-container:hover {
+    
 }
